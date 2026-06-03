@@ -1,0 +1,16 @@
+venv/
+node_modules/
+__pycache__/
+*.pyc
+.env
+
+backend/venv/
+frontend/node_modules/
+
+runs/
+dataset/
+
+.next/
+
+*.mp4
+*.zip
