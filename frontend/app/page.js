@@ -7,8 +7,7 @@ export default function Home() {
   const [report, setReport] = useState(null);
 
   useEffect(() => {
-    axios
-      .get("http://127.0.0.1:8000/report")
+    axios.get("https://purplle-tech-challenge-2026.onrender.com/report")
       .then((res) => setReport(res.data))
       .catch((err) => console.log(err));
   }, []);
